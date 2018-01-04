@@ -10,4 +10,11 @@ A more complete and standard Docker image containing:
 
 This is an improvement over the Docker image: https://github.com/jbiancot/ubuntu_lamp
 
+# Usage
+
+If you are not running Apache Web Server on the host you can use port 80 **otherwise you would need to change the port.**
+
+`docker run -p 80:80 -ti jbiancot/ubuntu_lamp_java /bin/bash`
+
+
 Enjoy it !
