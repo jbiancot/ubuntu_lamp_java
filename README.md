@@ -8,6 +8,6 @@ A more complete and standard Docker image containing:
 * Java JDK 1.8.0_151 - Java Development Kit
 * Gradle 4.4.1
 
-This is an improvement over: https://github.com/jbiancot/ubuntu_lamp
+This is an improvement over the Docker image: https://github.com/jbiancot/ubuntu_lamp
 
 Enjoy it !
