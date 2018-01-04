@@ -1,4 +1,4 @@
-# A Docker image with Ubuntu, Apache, PHP and Java 8: jbiancot/ubuntu_lamp_java
+# A Docker image with Ubuntu, Apache, PHP and Java
 
 A more complete and standard Docker image containing:
 
