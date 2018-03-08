@@ -2,9 +2,23 @@ FROM jbiancot/ubuntu_lamp
 
 RUN apt-get -qq update
 
+RUN apt-get -qq upgrade
+
+RUN apt-get -qq dist-upgrade
+
+RUN apt -qq autoremove
+
 RUN apt-get -y install software-properties-common python-software-properties
 
 RUN apt-get -y install unzip
+
+RUN apt-get -y install nano
+
+RUN apt-get -y install lsof
+
+RUN apt-get -y install xterm
+
+RUN apt-get -y install mysql-client
 
 RUN \
   echo oracle-java8-installer shared/accepted-oracle-license-v1-1 select true | debconf-set-selections && \
