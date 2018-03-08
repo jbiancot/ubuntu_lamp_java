@@ -7,6 +7,7 @@ A more complete and standard Docker image containing:
 * PHP 7.0.25
 * Java JDK 1.8.0_161 - Java Development Kit
 * Gradle 4.4.1
+* MySQL client 5.7.21
 
 This is an improvement over the Docker image: https://github.com/jbiancot/ubuntu_lamp
 
