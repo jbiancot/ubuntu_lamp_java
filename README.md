@@ -1,5 +1,7 @@
 # A Docker image with Ubuntu, Apache, PHP and Java
 
+Updated: 8-March-2018
+
 A more complete and standard Docker image containing:
 
 * Ubuntu 16.04.4 LTS (xenial)
